@@ -77,12 +77,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ProductivAI Assistant — Smarter Work, Powered by AI" },
       { name: "description", content: "AI-powered workplace productivity assistant for emails, meetings, planning, research, and chat." },
       { name: "author", content: "ProductivAI" },
-      { property: "og:title", content: "ProductivAI Assistant" },
-      { property: "og:description", content: "Automate workplace tasks with AI: emails, summaries, planning, research, chat." },
+      { property: "og:title", content: "ProductivAI Assistant — Smarter Work, Powered by AI" },
+      { property: "og:description", content: "AI-powered workplace productivity assistant for emails, meetings, planning, research, and chat." },
       
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ProductivAI Assistant — Smarter Work, Powered by AI" },
+      { name: "twitter:description", content: "AI-powered workplace productivity assistant for emails, meetings, planning, research, and chat." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0f91c350-bd2c-40a7-8cfb-3095c8294a3f/id-preview-a69d5588--85440ba9-0f7e-4741-bfdf-57e0d610492f.lovable.app-1778144771047.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0f91c350-bd2c-40a7-8cfb-3095c8294a3f/id-preview-a69d5588--85440ba9-0f7e-4741-bfdf-57e0d610492f.lovable.app-1778144771047.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
