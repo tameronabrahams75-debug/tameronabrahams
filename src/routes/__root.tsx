@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "ProductivAI" },
       { property: "og:title", content: "ProductivAI Assistant" },
       { property: "og:description", content: "Automate workplace tasks with AI: emails, summaries, planning, research, chat." },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
